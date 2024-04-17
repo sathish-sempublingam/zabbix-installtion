@@ -32,8 +32,7 @@ DBPassword=password
 
 sudo systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
-
-(sg-https-80port)
+(securitygroup-https-80port)
 
 username:Admin
 paswd:zabbix
