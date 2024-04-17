@@ -34,6 +34,7 @@ sudo systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 (securitygroup-http-80port)
 
+server login --> server public ip(3.110.204.64/zabbix)
 username:Admin
 paswd:zabbix
 ip/zabbix (235.43.43.12/zabbix)
