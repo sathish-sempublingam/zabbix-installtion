@@ -54,7 +54,7 @@ zabbix server ip config agent server
 vi /etc/zabbix/zabbix_agentd.conf ---> open file
      server=13.232.101.52(zabbix server ip) ---> agent connect config zabbix ip
      server active 
-     serverActive=13.201.101.134(agent server ip) --->  connect config zabbix ip
+     serverActive=13.201.101.134(zabbix server ip) --->  connect config zabbix ip
 
 sudo systemctl restart zabbix-agent
 
